@@ -1,4 +1,4 @@
-package fes.aragon.ejercicios.parcialDos.cola;
+package fes.aragon.ejercicios.parcialdos.cola;
 
 import fes.aragon.dinamica.listasimple.ListaSimple;
 

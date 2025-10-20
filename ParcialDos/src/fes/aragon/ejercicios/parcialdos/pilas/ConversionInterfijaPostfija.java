@@ -1,4 +1,4 @@
-package fes.aragon.ejercicios.parcialDos.pilas;
+package fes.aragon.ejercicios.parcialdos.pilas;
 
 import fes.aragon.dinamica.pilas.Pila;
 

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Herramientas">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ParcialDos/jar/Herramientas.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

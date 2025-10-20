@@ -1,4 +1,4 @@
-package fes.aragon.ejercicios.parcialDos.cola;
+package fes.aragon.ejercicios.parcialdos.cola;
 
 public class Acciones {
     private char tipo;
