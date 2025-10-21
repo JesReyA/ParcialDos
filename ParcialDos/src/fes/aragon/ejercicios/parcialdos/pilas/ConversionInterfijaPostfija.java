@@ -1,6 +1,6 @@
 package fes.aragon.ejercicios.parcialdos.pilas;
 
-import fes.aragon.dinamica.pilas.Pila;
+import unam.fes.aragon.dinamicas.pilas.Pila;
 
 public class ConversionInterfijaPostfija {
 

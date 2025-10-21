@@ -1,6 +1,6 @@
 package fes.aragon.ejercicios.parcialdos.cola;
 
-import fes.aragon.dinamica.pilas.Pila;
+import unam.fes.aragon.dinamicas.pilas.Pila;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -22,7 +22,7 @@ public class GananciaCapital {
             while((cadena = lector.readLine()) != null){
                 //Division de la cadena
                 partes = cadena.split(";");
-                compraVenta('C', 300, 20, 1);
+                //compraVenta('C', 300, 20, 1);
             }
         } catch (Exception e) {
             throw new RuntimeException(e.getMessage());

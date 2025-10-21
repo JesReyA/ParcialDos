@@ -1,6 +1,6 @@
 package fes.aragon.ejercicios.parcialdos.cola;
 
-import fes.aragon.dinamica.listasimple.ListaSimple;
+import unam.fes.aragon.dinamicas.listasimple.ListaSimple;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -39,14 +39,14 @@ public class EjercicioDosPrueba {
         archivoReporte.escribirEnArchivo("reporte.txt", "Cantidad de Veces que se repiten los números del 30 al 150 en el archivo \"lista.csv\"");
 
         for(int i= 0; i< listaDos.getLongitud(); i++){
-            if(listaDos.getDatoEn(i) != null){
-                numeroActual = listaDos.getDatoEn(i);
+            if(listaDos.obtenerNodo(i) != null){
+                numeroActual = listaDos.obtenerNodo(i);
                 cantidadRepeticiones = 1;
 
                 for (int j = i+1; j< listaDos.getLongitud(); j++){
-                    if(listaDos.getDatoEn(j) != null && listaDos.getDatoEn(j) == numeroActual){
+                    if(listaDos.obtenerNodo(j) != null && listaDos.obtenerNodo(j) == numeroActual){
                         cantidadRepeticiones++;
-                        listaDos.modificarDato(j, null);
+                        listaDos.asignar(null, j);
                     }
                 }
                 archivoReporte.escribirEnArchivo("reporte.txt","\n");

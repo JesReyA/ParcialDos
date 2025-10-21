@@ -1,6 +1,6 @@
 package fes.aragon.ejercicios.parcialdos.pilas;
 
-import fes.aragon.dinamica.pilas.Pila;
+import unam.fes.aragon.dinamicas.pilas.Pila;
 
 public class OperacionPosfija {
     public static void main(String[] args) {

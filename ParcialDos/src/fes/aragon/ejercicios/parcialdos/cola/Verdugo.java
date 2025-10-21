@@ -1,6 +1,6 @@
 package fes.aragon.ejercicios.parcialdos.cola;
 
-import fes.aragon.dinamica.cola.Cola;
+import unam.fes.aragon.dinamicas.cola.Cola;
 
 public class Verdugo {
     public static void main(String[] args) {
