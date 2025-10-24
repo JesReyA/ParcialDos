@@ -16,7 +16,7 @@ public class GananciaCapital {
         String [] partes = null;
 
         try{
-            archivo = new FileReader("ParcialDos/Acciones.csv");
+            archivo = new FileReader("Acciones.csv");
             lector= new BufferedReader(archivo);
             while((cadena = lector.readLine()) != null){
                 //Division de la cadena
