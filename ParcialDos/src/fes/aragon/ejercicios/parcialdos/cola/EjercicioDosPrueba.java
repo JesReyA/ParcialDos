@@ -5,6 +5,8 @@ import unam.fes.aragon.dinamicas.listasimple.ListaSimple;
 import java.io.BufferedReader;
 import java.io.FileReader;
 
+//Este solo es para guiarse en el llenado del archivo, no es parte del proyecto como tal o de la unidad
+
 public class EjercicioDosPrueba {
     public static void main(String[] args) {
         ListaSimple<Integer> listaDos= new ListaSimple<>();
