@@ -6,13 +6,6 @@ public class Acciones {
     private int precioAcciones;
     private int diaTransaccion;
 
-    public Acciones(){
-        this.tipo = 'C';
-        this.cantidadAcciones = 0;
-        this.precioAcciones = 0;
-        this.diaTransaccion = 0;
-    }
-
     public Acciones(char tipo, int cantidadAcciones, int precioAcciones, int diaTransaccion) {
         this.tipo = tipo;
         this.cantidadAcciones = cantidadAcciones;
