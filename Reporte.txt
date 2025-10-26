@@ -1,11 +1,13 @@
 Reporte
-Reporte de Ganancia o Pérdida en Compra-Venta de Acciones
+Ganancia o Pérdida en Compra-Venta de Acciones
 
 # Venta: 1
 Ganancia: 2700
 # Venta: 2
-Pérdida: 750
+Pérdida: 300
 # Venta: 2
 Ganancia: 30
+# Venta: 3
+Ganancia: 192
 
-Ganancia Total: 1980
+Ganancia Total: 2622

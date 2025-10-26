@@ -20,7 +20,7 @@ public class GananciaCapital {
         }
 
         archivoReporte.escribirEnArchivo("Reporte.txt", "Reporte\n");
-        archivoReporte.escribirEnArchivo("Reporte.txt", "Reporte de Ganancia o Pérdida en Compra-Venta de Acciones" + "\n\n");
+        archivoReporte.escribirEnArchivo("Reporte.txt", "Ganancia o Pérdida en Compra-Venta de Acciones" + "\n\n");
 
         try{
             archivo = new FileReader("Acciones.csv");
@@ -55,7 +55,6 @@ public class GananciaCapital {
                             gananciaPerdida.extraer();
 
                         }else if (diferenciaAcciones > 0){
-                            gananciaPerdida.elementoSuperior().setCantidadAcciones(diferenciaAcciones);
                             ventaAcciones = (nuevaAccion.getPrecioAcciones()* nuevaAccion.getCantidadAcciones() -nuevaAccion.getCantidadAcciones()*accionVieja.getPrecioAcciones());
                             totalVenta += ventaAcciones;
 
@@ -71,9 +70,9 @@ public class GananciaCapital {
                             }
 
                             cantidadAccionesVendidas = 0;
-                            nuevaAccion.setCantidadAcciones(diferenciaAcciones);
+                            gananciaPerdida.elementoSuperior().setCantidadAcciones(diferenciaAcciones);
                         }else{
-                            ventaAcciones = (nuevaAccion.getPrecioAcciones()* nuevaAccion.getCantidadAcciones() -nuevaAccion.getCantidadAcciones()*accionVieja.getPrecioAcciones());
+                            ventaAcciones = (nuevaAccion.getPrecioAcciones()* accionVieja.getCantidadAcciones() -accionVieja.getCantidadAcciones()*accionVieja.getPrecioAcciones());
                             totalVenta += ventaAcciones;
 
                             if(ventaAcciones<0){
